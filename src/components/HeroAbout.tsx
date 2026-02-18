@@ -21,17 +21,17 @@ const HeroAbout = () => {
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
-              className="inline-block px-4 py-1.5 rounded-full bg-accent/10 text-accent text-sm font-medium border border-accent/20"
+              className="inline-block px-4 py-1.5 rounded-full bg-accent/10 text-accent text-sm font-semibold border border-accent/20 tracking-wider uppercase"
             >
               MCA Student • Aspiring Software Developer
             </motion.div>
 
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-display font-bold text-foreground leading-tight">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-display font-extrabold text-foreground leading-tight tracking-tight">
               Hi, I'm{" "}
               <span className="text-gradient">Vasanthakumar R</span>
             </h1>
 
-            <p className="text-lg text-muted-foreground max-w-xl leading-relaxed">
+            <p className="text-lg sm:text-xl text-muted-foreground max-w-xl leading-relaxed font-medium">
               I am an MCA student at Rathinam Technical Campus with interest in
               software development and AI projects. I enjoy building real-world
               applications using Python and Java and I am eager to learn new
